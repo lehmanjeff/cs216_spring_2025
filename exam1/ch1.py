@@ -1,7 +1,7 @@
 # ch1.py
 # prof. lehman
 # 1.13.2025
-# zyBooks chapter 1 concept summary
+# zyBooks chapter 1 concept summary - with solutions
 
 # output
 print("text in double quotes")
@@ -34,7 +34,7 @@ print( age, "years old, has GPA of", gpa)
 print()
 
 #input is string
-#name = input()
+name = input()
 print("you entered:", name)
 name = input("Enter your name: ")
 print("you entered:", name)
@@ -59,9 +59,21 @@ n3 = int(input())
 avg = (n1 + n2 + n3) / 3.0
 
 print("average is", avg)
+print()
 
 #? add message to each input
+n1 = int(input("Enter n1: "))
+n2 = int(input("Enter n2: "))
+n3 = int(input("Enter n3: "))
+
+avg = (n1 + n2 + n3) / 3.0
+
+print("average is", avg)
+print()
+
 #? make this a "one line" program
+print((int(input("Enter n1: ")) + int(input("Enter n2: ")) + int(input("Enter n3: "))) / 3.0 )
+
 
 
 
